@@ -1,28 +1,55 @@
-html, body {
-    color: rgb(193, 190, 255);
-    font-size: 20px;
-    line-height: 20px;
-    background-image: url("http://wallpaper4pc.com/wp-content/uploads/2018/01/Gradient-Wallpaper-HD.jpg");
-    height: 100%;
-}
 .jumbotron {
-    background: rgb(215, 147, 99);
-    color: rgb(96, 146, 176);
-    margin: -20px -2opx 40px;
+    color: #77abb7;
+    margin: 40px;
+    background-color:#254b62 !important; 
+}
+
+.title {
+    font-family: 'Changa', sans-serif;
+    font-size: 65px;
 }
 
 .container {
-    background: rgb(55, 59, 94);
+    background: #1d3e53;
     padding: 20px;
 }
 
 section {
-    margin: 40px 0;
+    margin: 20px 0;
 }
 
 #crystals img:hover {
-    box-shadow: 0px 0px 5px #d7cfcf;
-    border: 8px solid rgb(202, 98, 80);
-    border-radius: 4px;
-    
+    box-shadow: 0px 0px 5px #0a0505;
+    border: 2px solid rgb(202, 98, 80);
+    border-radius: 50px;
+}
+
+.list-group-item {
+    font-size: 14px;
+}
+
+.rules-header {
+    align-content: center;
+    padding: 20px;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    background-color:#476d7c !important;
+    opacity: 0.9;
+}
+
+.card-title {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.card-header {
+    background-color:#476d7c !important; 
+    opacity: 0.9;
+}
+
+body {
+    background-color:#1d3e53 !important; 
+
 }
